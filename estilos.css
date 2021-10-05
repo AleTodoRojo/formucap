@@ -1,0 +1,48 @@
+#main{
+	flex-grow: 1;
+}
+.novedades{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 300px;
+}
+.novedades .content, .novedades .deco{
+	width: 50%;
+}
+.novedades .content{
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.novedades .content .titulo{
+	font-size: 24px;
+}
+.novedades .deco{
+	background-image: url('media/bb1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media (max-width: 768px) {
+
+	.novedades {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		min-height: 300px;
+	}
+
+}
+
+
+caption-footer{
+  position: absolute;
+  bottom:0;
+  left: 0;
+}
