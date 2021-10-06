@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;800&display=swap');
+* {
+	margin:0;
+	padding:0;
+}
+#main{
+	flex-grow: 1;
+}
+body{
+	background-color: #B5CDA3;
+	font-family: Spartan, sans-serif;
+	font-weight: 400;
+}
+
+#header{
+	min-height: 120px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.navbar-green{
+	background-color: #C9E4C5;
+}
+.bg-green{
+	background-color: #C9E4C5;
+}
+
+#footer{
+	min-height: 50px;
+	display: flex;
+	position:fixed;
+	bottom:0;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	background-image: linear-gradient(to right, #c9e4c5, #d7e5c6, #e3e5c9, #ede6ce, #f4e8d5, #f3e6d2, #f1e4d0, #f0e2cd, #e5dcc0, #d8d6b4, #c8d2aa, #b5cda3);
+}
+
