@@ -16,10 +16,6 @@ h1{
   text-align: center;
   color: #C1AC95;
 }
-h1:hover{
-  transform: scale(1.2);
-  transition: transform 2s;
-}
 h2{
   font-weight: 400;
   text-align: center;
@@ -130,7 +126,6 @@ h2{
 #footer{
   min-height: 50px;
   display: flex;
-  position:fixed;
   bottom:0;
   flex-direction: row;
   align-items: center;
@@ -157,6 +152,9 @@ h2{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.row{
+  overflow: hidden;
 }
 .fotof1{
   background-image: url('../media/formula1.jpg');
@@ -211,47 +209,47 @@ h2{
 }
 img:hover{
   transform: scale(1.1);
-  transition: transform 0.5s;
+  transition: transform 0.2s;
 }
 .myLogo:hover{
   transform: scale(1.1);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .foto:hover{
   transform: scale(1.2);
-  transition: transform 0.5s;
+  transition: transform 0.2s;
 }
 .fotof2:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .fotof1:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .foton2:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .foton1:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .fotom2:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .fotom1:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .fotoco1:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .mapa:hover{
   transform: scale(1.2);
-  transition: transform 2s;
+  transition: transform 0.2s;
 }
 .wa{
   position:fixed;
